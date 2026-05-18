@@ -19,16 +19,17 @@ The Docker commands that were new to me are:
 
 ## Part 3
 1. docker container ls after step 3
+   -  
   <img width="1502" height="187" alt="image" src="https://github.com/user-attachments/assets/58dbe2fc-8817-43f5-9c8a-29d53c576162" />
 
 
-2. The browser page after step 8 showing your custom message
+3. The browser page after step 8 showing your custom message
   <img width="1406" height="459" alt="image" src="https://github.com/user-attachments/assets/bf898d79-add2-45de-a420-c16e21ec7101" />
 
 
-3. The output of docker container inspect -f '{{.NetworkSettings.IPAddress}}' practice-web from step 9
+4. The output of docker container inspect -f '{{.NetworkSettings.IPAddress}}' practice-web from step 9
   <img width="1113" height="90" alt="image" src="https://github.com/user-attachments/assets/e5ce1270-0b1a-4c55-9ba9-b515819462ff" />
 
 
-4. One thing that surprised you about how Docker behaves.
+5. One thing that surprised you about how Docker behaves.
 - How some commands are aliased out the box.
