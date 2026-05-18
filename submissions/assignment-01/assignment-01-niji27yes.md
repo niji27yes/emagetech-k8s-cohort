@@ -1,3 +1,7 @@
+
+# Name: Seyi Babaniji 
+# GitHub Username: niji27yes
+
 # Assignment 01
 
 ## Part 1
