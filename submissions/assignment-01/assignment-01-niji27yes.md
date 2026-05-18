@@ -7,8 +7,8 @@ The Docker commands that were new to me are:
 - docker system df. I used to check the disk usage of containers and images.
 
 ## Part 2 answers: the three numbered "Question" prompts in Part 2 (images vs containers, run vs exec, the read-only mount flag).
-Question: After running the four commands above, how many images do you have? How many containers? Why?
-I have two alpine images because the **"docker container run alpine echo hi"** command didn't specify a tag and so Docker pulled the latest tag.
+- After running the four commands above, how many images do you have? How many containers? Why?
+I have two alpine images because the **"docker container run alpine echo hi"** command doesn't specify a tag and so Docker pulled the latest tag and ran the container with it.
 
 Question: What's the difference between docker run -it alpine sh and docker exec -it <name> sh? When would you use each?
 Try it: find the flag that mounts a single file from the host into a container as read-only. (Hint: search for "mount" in the run --help output.)
