@@ -10,8 +10,8 @@ The Docker commands that were new to me are:
 1. After running the four commands above, how many images do you have? How many containers? Why?
 - I have two alpine images because the **"docker container run alpine echo hi"** command doesn't specify a tag and so Docker pulled the latest tag and ran the container with it.
 
-Question: What's the difference between docker run -it alpine sh and docker exec -it <name> sh? When would you use each?
-Try it: find the flag that mounts a single file from the host into a container as read-only. (Hint: search for "mount" in the run --help output.)
+2. What's the difference between docker run -it alpine sh and docker exec -it <name> sh? When would you use each?
+3. Find the flag that mounts a single file from the host into a container as read-only. (Hint: search for "mount" in the run --help output.)
 
 
 ## Part 3 evidence: a screenshot (or copy-pasted terminal output) showing:
