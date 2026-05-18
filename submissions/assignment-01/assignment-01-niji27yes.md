@@ -12,7 +12,7 @@ The Docker commands that were new to me are:
 
 2. What's the difference between **docker run -it alpine sh** and **docker exec -it <name> sh**? When would you use each?
 - **docker run -it alpine sh** opens an interactive session in a running container and is used when you need to access a running container and execute commands in it.
-- **docker exec -it <name> sh**
+- **docker exec -it <name> sh** excutes a command inside a running container and is used when you need to execute a command or script inside a running container without creating an interactive session.
 
 4. Find the flag that mounts a single file from the host into a container as read-only. (Hint: search for "mount" in the run --help output.)
 
