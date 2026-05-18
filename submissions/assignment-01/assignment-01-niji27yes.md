@@ -1,12 +1,14 @@
 # Assignment 01
 
 ## Part 1
+
 The Docker commands that were new to me are:
 - docker logs. I used this command to get logs of the practice-web container.
 - docker container prune. I used to remove stopped containers.
 - docker system df. I used to check the disk usage of containers and images.
 
 ## Part 2
+
 1. After running the four commands above, how many images do you have? How many containers? Why?
 - I have two alpine images and one container because the **"docker container run alpine echo hi"** command doesn't specify a tag and so Docker pulled the latest tag and ran the container with it.
 
@@ -18,6 +20,7 @@ The Docker commands that were new to me are:
 - **--mount** with **readonly** or **-v** with **:ro**
 
 ## Part 3
+
 1. docker container ls after step 3
   <img width="1502" height="187" alt="image" src="https://github.com/user-attachments/assets/58dbe2fc-8817-43f5-9c8a-29d53c576162" />
 
