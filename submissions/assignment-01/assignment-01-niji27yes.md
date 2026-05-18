@@ -1,12 +1,12 @@
 # Assignment 01
 
-## Part 1 Reflection:
+## Part 1
 The Docker commands that were new to me are:
 - docker logs. I used this command to get logs of the practice-web container.
 - docker container prune. I used to remove stopped containers.
 - docker system df. I used to check the disk usage of containers and images.
 
-## Part 2 answers: the three numbered "Question" prompts in Part 2 (images vs containers, run vs exec, the read-only mount flag).
+## Part 2
 1. After running the four commands above, how many images do you have? How many containers? Why?
 - I have two alpine images because the **"docker container run alpine echo hi"** command doesn't specify a tag and so Docker pulled the latest tag and ran the container with it.
 
@@ -17,7 +17,7 @@ The Docker commands that were new to me are:
 4. Find the flag that mounts a single file from the host into a container as read-only. (Hint: search for "mount" in the run --help output.)
 
 
-## Part 3 evidence: a screenshot (or copy-pasted terminal output) showing:
+## Part 3
 docker container ls after step 3
 The browser page after step 8 showing your custom message
 The output of docker container inspect -f '{{.NetworkSettings.IPAddress}}' practice-web from step 9
