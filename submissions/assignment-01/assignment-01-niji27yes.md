@@ -8,7 +8,7 @@ The Docker commands that were new to me are:
 
 ## Part 2
 1. After running the four commands above, how many images do you have? How many containers? Why?
-- I have two alpine images because the **"docker container run alpine echo hi"** command doesn't specify a tag and so Docker pulled the latest tag and ran the container with it.
+- I have two alpine images and one container because the **"docker container run alpine echo hi"** command doesn't specify a tag and so Docker pulled the latest tag and ran the container with it.
 
 2. What's the difference between **docker run -it alpine sh** and **docker exec -it <name> sh**? When would you use each?
 - **docker run -it alpine sh** opens an interactive session in a running container and is used when you need to access a running container and execute commands in it.
