@@ -19,7 +19,6 @@ The Docker commands that were new to me are:
 
 ## Part 3
 1. docker container ls after step 3
-   -  
   <img width="1502" height="187" alt="image" src="https://github.com/user-attachments/assets/58dbe2fc-8817-43f5-9c8a-29d53c576162" />
 
 
